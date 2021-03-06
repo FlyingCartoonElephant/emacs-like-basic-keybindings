@@ -1,0 +1,17 @@
+[
+	{ "keys": ["ctrl+/"], "command": "undo" },
+	{ "keys": ["ctrl+y"], "command": "paste" },
+	{ "keys": ["ctrl+b"], "command": "move", "args": {"by": "characters", "forward": false} },
+	{ "keys": ["ctrl+f"], "command": "move", "args": {"by": "characters", "forward": true} },
+	{ "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
+	{ "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true} },
+	{ "keys": ["alt+b"], "command": "move", "args": {"by": "words", "forward": false} },
+	{ "keys": ["alt+f"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+	{ "keys": ["ctrl+s"], "command": "save" },
+	{ "keys": ["ctrl+o"], "command": "new_file" },
+	{ "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	{ "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+	{ "keys": ["alt+a"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+	{ "keys": ["alt+e"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+	{ "keys": ["ctrl+r"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+]
